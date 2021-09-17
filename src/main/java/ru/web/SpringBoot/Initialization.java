@@ -46,14 +46,14 @@ public class Initialization {
         User user6 = new User("impostor", "impostor", "Impostor", "Imposter", (byte) 9, "imp@mail.ru", userAccess);
         User user7 = new User("bad", "bad", "Bad", "Comedian", (byte) 66, "bad@rambbler.net", userAccess);
         User user8 = new User("morty", "morty", "Morty", "Morty", (byte) 12, "morty@gmail.com", userAccess);
-//        userService.save(user1);
-//        userService.save(user2);
-//        userService.save(user3);
-//        userService.save(user4);
-//        userService.save(user5);
-//        userService.save(user6);
-//        userService.save(user7);
-//        userService.save(user8);
+        userService.save(user1);
+        userService.save(user2);
+        userService.save(user3);
+        userService.save(user4);
+        userService.save(user5);
+        userService.save(user6);
+        userService.save(user7);
+        userService.save(user8);
     }
 
 }

@@ -8,8 +8,8 @@ spring:
     database-platform: org.hibernate.dialect.MySQL5Dialect
     properties:
       hibernate.format_sql: true
-#    hibernate:
-#      ddl-auto: create
+    hibernate:
+      ddl-auto: create
 
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
